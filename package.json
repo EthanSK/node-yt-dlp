@@ -228,7 +228,7 @@
     "scripts"
   ],
   "scripts": {
-    "check": "bin-version-check python '>=3'",
+    "check": "",
     "download": "node ./scripts/download.js",
     "lint": "standard-markdown README.md && standard",
     "postinstall": "npm run check && npm run download",
